@@ -5,9 +5,9 @@ pc1-eduardosalas1 created by GitHub Classroom
 
     de cada clase síncrona.
     
-  a. El título y el enlace de cada clase deberá ser validado y notificado a: CE2A,
+  a. El título y el enlace de cada clase deberá ser validado y notificado a: 
   
-    DGA, Counter Docentes y Counter Alumnos.
+    CE2A,DGA, Counter Docentes y Counter Alumnos.
     
   b. La validación de la descripción corresponde al siguiente formato:
   
@@ -24,6 +24,7 @@ pc1-eduardosalas1 created by GitHub Classroom
          09/23 14:00-16:00 Laboratorio.
          
    c. La validación del enlace corresponde a una URL válida que empieza con
+   
       “https://utec.zoom.us/rec/share/”.
       
 ## Requerimientos no funcionales
