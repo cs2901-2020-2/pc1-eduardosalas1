@@ -5,7 +5,7 @@ public class RegistrarClase {
 
     private String Clase;
 
-    public static void IniciarSesion(String Nombre) throws VacioException{
+    public void IniciarSesion(String Nombre) throws VacioException{
 
         if(Nombre.isEmpty()){
             throw new VacioException("No ingreso nombre alguno");
@@ -18,16 +18,17 @@ public class RegistrarClase {
         this.Clase = Clase;
 
 
-        if(ValidarClase(Clase)){
+        if(ValidarClase(Clase))
             System.out.println("Validacion correcta: "+"https://utec.zoom.us/rec/share/");
-        }else{
+
+        else
             throw new FormatoException("No cumple con el formato establecido");
-        }
+
 
 
     }
 
-    public static boolean ValidarClase(String nombre) throws FormatoException {
+    public boolean ValidarClase(String nombre) {
 
         String Semestre, Codigo, Idioma , Curso, Seccion, NumeroSemana, Profesor, Fecha, Hora, Tipo;
 

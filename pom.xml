@@ -13,7 +13,12 @@
         <maven.compiler.version>3.8.1</maven.compiler.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+        <sonar.projectKey>cs2901-2020-2_pc1-eduardosalas1</sonar.projectKey>
+        <sonar.organization>cs2901-2020-2</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.login>20a62c97916017574e79982c2c7dd905f560638e</sonar.login>
     </properties>
+
 
     <build>
         <plugins>
@@ -43,6 +48,8 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+
 
 
 

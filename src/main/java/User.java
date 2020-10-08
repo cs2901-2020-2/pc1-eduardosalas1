@@ -1,9 +1,14 @@
+import java.util.List;
+
 public class User {
 
-    private final String name;
+    private List<String> Names;
 
-    public User(String name){
-        this.name = name;
+    public User(){
+        Names.add("CE2A");
+        Names.add("DGA");
+        Names.add("Counter Docentes");
+        Names.add("Counter Alumnos");
     }
 
 
